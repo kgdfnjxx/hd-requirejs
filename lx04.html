@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="UTF-8">
+	<title>define使用自定义模块</title>
+	<script src="./lib/require.js"></script>
+	<script src="./lx04/main.js"></script>
+</head>
+<body>
+	<script>
+		require(["util"],function(hd){
+			hd.change();
+		})
+	</script>
+</body>
+</html>

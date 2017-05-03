@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script src="lib/require.js" data-main="lx02/main.js"></script>
+</head>
+<body>
+	<button onclick="test()">测试</button>
+	<script>
+		function test(){
+			require(['jquery','angular'],function($,angular){
+				$('body').css('background','red');
+			});
+		}
+	</script>
+</body>
+</html>
